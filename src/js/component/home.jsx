@@ -13,6 +13,9 @@ const Home = () => {
 			<Navbar/>
 			<Jumbotron/>
 			<Card/>
+			<Card/>
+			<Card/>
+			<Card/>
 			<Footer/>
 		</div>
 	);
