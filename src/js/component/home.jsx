@@ -12,10 +12,22 @@ const Home = () => {
 		<div className="container-fluid">
 			<Navbar/>
 			<Jumbotron/>
-			<Card/>
-			<Card/>
-			<Card/>
-			<Card/>
+			<div className="container text-center">
+				<div className="row">
+					<div className="col">
+					<Card />
+					</div>
+					<div className="col">
+					<Card />
+					</div>
+					<div className="col">
+					<Card />
+					</div>
+					<div className="col">
+					<Card />
+					</div>
+				</div>
+			</div>
 			<Footer/>
 		</div>
 	);
